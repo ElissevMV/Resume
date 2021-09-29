@@ -1,0 +1,34 @@
+.forum{
+    position: relative;
+}
+.forumAdd{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 20vw;
+    top: 10px;
+    left: 5px;
+}
+.forumAdd input, .forumAdd button, .forumAdd textarea{
+    margin-top: 5px;
+}
+.forum_mess{
+    height: 150px;
+    height: 100px;
+    resize: none;
+}
+.area{
+    background-color: rgba(204, 204, 204, 0.562);
+    width: 500px;
+    height: 100px;
+    margin-bottom: 10px;
+    border:2px solid black;
+}
+.in{
+    margin-left: 25vw;
+    margin-top: 10px;
+    max-width: 600px;
+    overflow-y: auto;
+    max-height: 80vh;
+}

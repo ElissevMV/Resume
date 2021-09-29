@@ -1,0 +1,45 @@
+
+[
+    {
+        "img": "https://img.icons8.com/emoji/48/000000/cucumber-emoji.png",
+        "cost": "25",
+        "article": 2451,
+        "type": "vegetable",
+        "name": "Огурец"
+    },
+    {
+        "img": "https://img.icons8.com/doodle/48/000000/apple.png",
+        "cost": "43",
+        "article": 3245,
+        "type": "fruit",
+        "name": "Яблоко"
+    },
+    {
+        "img": "https://img.icons8.com/emoji/48/000000/lemon.png",
+        "cost": "29",
+        "article": 1332,
+        "type": "fruit",
+        "name": "Лимон"
+    },
+    {
+        "img": "https://img.icons8.com/emoji/48/000000/tomato-emoji.png",
+        "cost": "34",
+        "article": 3232,
+        "type": "vegetable",
+        "name": "Помидор"
+    },
+    {
+        "img": "https://img.icons8.com/color/48/000000/orange.png",
+        "cost": "38",
+        "article": 3265,
+        "type": "fruit",
+        "name": "Апельсин"
+    },
+    {
+        "img":"https://img.icons8.com/emoji/48/000000/pear-emoji.png",
+        "cost": "35",
+        "article": 1832,
+        "type": "fruit",
+        "name": "Груша"
+    }
+]

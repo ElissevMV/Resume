@@ -1,0 +1,91 @@
+.option_page{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.option_page_left{
+    position: relative;
+    background-color: rgb(75, 28, 163);
+    width: 50%;
+    height: 100vh;
+    border: 3px solid #ccc;
+    
+}
+
+.option_page_right{
+    position: relative;
+    background-color: rgb(26, 55, 150);
+    width: 50%;
+    height: 100vh;
+    border: 3px solid #ccc;
+    border-left: 3px;
+}
+.arrow_left{
+    position: absolute;
+    right: 0;
+    top: 45vh;
+    font-size: 22px;
+    background-color: #ccc;
+    width: 35px;
+    height: 34px;
+    border-radius: 20% 0 0 20%;
+    color: rgb(26, 55, 150);
+    border-right:1px solid rgb(75, 28, 163);
+    text-align: right;
+    cursor:pointer;
+    z-index: 100;
+}
+.arrow_left:hover{
+    color: #ccc;
+    background-color: rgb(26, 55, 150);
+}
+.arrow_right{
+    position: absolute;
+    margin-left: 0;
+    top: 45vh;
+    font-size: 22px;
+    background-color: #ccc;
+    width: 35px;
+    height: 34px;
+    border-radius: 0 20% 20% 0;
+    color: rgb(75, 28, 163);
+    border-left:1px solid rgb(75, 28, 163);
+    text-align: left;
+    cursor:pointer;
+    z-index: 100;
+}
+.arrow_right:hover{
+    color: #ccc;
+    background-color: rgb(75, 28, 163);
+}
+.about_me{
+    color: #ccc;
+    position: absolute;
+    font-size: 15vh;
+    margin-top: 35vh;
+    cursor: default;
+    left: 10vw;
+    white-space:nowrap;
+    text-shadow:5px 0 10px  rgb(32, 31, 31),
+                5px 0 15px  #ccc,
+                5px 0 20px  #ccc;
+}
+.apps{
+    color: #ccc;
+    position: absolute;
+    font-size: 15vh;
+    margin-top: 35vh;
+    cursor: default;
+    white-space:nowrap;
+    left: 15vw;
+    text-shadow:5px 0 10px  rgb(32, 31, 31),
+                5px 0 15px  #ccc,
+                5px 0 20px  #ccc;
+}
+.all{
+    position: relative;
+    z-index: -1;
+}

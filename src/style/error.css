@@ -1,0 +1,30 @@
+.error_404{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: #07252d;
+}
+.error_404 h2{
+    font-size: 15vw;
+    position:relative;
+    color: rgb(159, 206, 206);
+    animation: ani_er 5s linear infinite;
+}
+@keyframes ani_er{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color: #0e3742;
+        box-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,100%{
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+
+    }
+}
+
